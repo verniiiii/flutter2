@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../features/counter/counter_screen.dart';
+import '../features/student_info/student_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const CounterScreen(title: 'Flutter Demo Home Page'),
+      home: const StudentScreen(),
     );
   }
 }
